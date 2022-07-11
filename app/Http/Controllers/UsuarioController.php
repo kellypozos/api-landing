@@ -8,7 +8,7 @@ use App\Models\Usuario;
 
 class UsuarioController extends Controller
 {
-    //shhshssh
+    //holaa
     //LISTAR TODOS LOS REGISTROS 
     public function list()
     {
