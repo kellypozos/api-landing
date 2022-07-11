@@ -22,7 +22,7 @@ class UsuarioController extends Controller
     {
         return response()->json($usuario);
     }
-
+//hdhdhddh
     //CREAR UN NUEVO REGISTRO
     public function store(GuardarUsuarioRequest $request)
     {
