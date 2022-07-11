@@ -21,4 +21,5 @@ class Usuario extends Model
         
     ];
 //hdhdhdhdhdh
+//sdjnsjdnsjdnsj
 }
