@@ -15,6 +15,7 @@ use App\Http\Controllers\UsuarioController;
 |
 | Cambio desde Dev1
 | Cambio desde dev1
+ffffffffffff
 */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
