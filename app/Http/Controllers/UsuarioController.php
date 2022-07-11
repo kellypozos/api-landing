@@ -9,6 +9,7 @@ use App\Models\Usuario;
 class UsuarioController extends Controller
 {
     //holaa
+
     //LISTAR TODOS LOS REGISTROS 
     public function list()
     {
@@ -41,7 +42,7 @@ class UsuarioController extends Controller
             'mensaje' => 'Usuario actualizado correctamente'
         ], 200);
     }
-
+//dhdhdhdhd
     //ELIMINAR UN REGISTRO DE MANERA LÓGICA 
     public function destroy(Usuario $usuario)
     {
