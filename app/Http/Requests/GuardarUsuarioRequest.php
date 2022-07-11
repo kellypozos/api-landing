@@ -13,7 +13,7 @@ class GuardarUsuarioRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,10 @@ class GuardarUsuarioRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            "usuario" => "required",
+            "correo" => "required",
+            "contrasena" => "required",
+            "foto"
         ];
     }
 }
