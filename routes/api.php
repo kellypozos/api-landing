@@ -14,6 +14,8 @@ use App\Http\Controllers\UsuarioController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 | Cambio desde Dev1
+| Cambio desde dev1
+ffffffffffff
 */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
