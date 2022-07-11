@@ -20,6 +20,5 @@ class Usuario extends Model
         'foto',
         
     ];
-//hdhdhdhdhdh
-//sdjnsjdnsjdnsj
+
 }
